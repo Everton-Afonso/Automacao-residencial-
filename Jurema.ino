@@ -15,7 +15,7 @@ void loop() {
   state = 0;
  }
  else if (state == '1') {
-  digitalWrite(porta_rele2, LOW);
+  digitalWrgitite(porta_rele2, LOW);
   state = 0;
  } 
 }
